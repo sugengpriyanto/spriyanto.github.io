@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+/* banner */
+.banner {
+    height: 100vh;
+    background: linear-gradient(35deg, #64dfdf, #6930c3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h2 {
+    font-size: 48px;
+}
+
+.banner h1 {
+    font-size: 64px;
+    margin-bottom: 12px;
+}
+
+.banner h3 {
+    font-weight: bolder;
+}
+
+.anim1 {
+    width: 250px;
+    height: 250px;
+    left: 50px;
+    z-index: 1;
+}
+
+body {
+    background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+}
+
+.main {
+    margin: 15px 15px;
+}
+
+.glass {
+    background: rgba( 255, 255, 255, 0.20 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+}
+
+.lighter-glass {
+    background: rgba( 255, 255, 255, 0.80 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8.0px );
+    -webkit-backdrop-filter: blur( 8.0px );
+    border-radius: 10px;
+}
+
+.opglass {
+    background: rgba( 255, 255, 255, 0.75 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6.0px );
+    -webkit-backdrop-filter: blur( 6.0px );
+    border-radius: 10px;
+}
+
+.tab-contain {
+    position: relative;
+    min-height: 100vh;
+    max-height: max-content;
+}
+
+.bottom-pad {
+    margin-bottom: 20px;
+}
+
+.wrapped {
+    position: absolute;
+    margin: 10px 10px;
+    padding: 15px;
+}
+
+.title {
+    padding: 15px;
+    margin-bottom: 5px;
+}
+
+.hidden-tab {
+    display: none;
+}
+
+.bodycontent {
+    padding: 15px;
+    margin-top: 10px;
+}
+
+/* Skills */
+.skill-wrapper p {
+    margin-top: 9px;
+    margin-bottom: 0px;
+}
+
+.containers {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+    border-radius: 5px;
+  }
+  
+  .skills {
+    text-align: right; /* Right-align text */
+    padding-top: 0px; /* Add top padding */
+    padding-bottom: 0px; /* Add bottom padding */
+    color: white; /* White text color */
+  }
+  
+  .html {width: 95%; background-color: #4CAF50; border-radius: 5px;} /* Green */
+  .css {width: 80%; background-color: #2196F3; border-radius: 5px;} /* Blue */
+  .js {width: 80%; background-color: #f44336; border-radius: 5px;} /* Red */
+  .react {width: 85%; background-color: #808080; border-radius: 5px;} /* Dark Grey */
+  .bootstrap {width: 95%; background-color: #808080; border-radius: 5px;} /* Dark Grey */
+  .jqr {width: 80%; background-color: #808080; border-radius: 5px;} /* Dark Grey */
+  .rdx {width: 75%; background-color: #808080; border-radius: 5px;} /* Dark Grey */
+
+  /* Card*/
+
+  .card {
+      margin: 40px auto 5px auto;
+  }
